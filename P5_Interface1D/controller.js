@@ -120,6 +120,9 @@ function keyPressed() {
     if (key == 'D' || key == 'd') {
     playerOne.move(1);
     }    
+    if (key == 'F' || key == 'f') {
+        playerOne.move(2);
+        }    
 
     if (key == 'J' || key == 'j') {
     playerTwo.move(-1);
